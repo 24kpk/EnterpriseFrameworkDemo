@@ -5,9 +5,9 @@
 
 
 # 1. 新建项目 
-删除冗余文件夹，如androidTest test文件夹（无测试要求）
+
 # 2. 统一管理依赖库
-复制==setting.gradle== 粘贴为 ==versions.gradle==
+复制`setting.gradle` 粘贴为 `versions.gradle`
 修改为以下内容
     
 	/**
@@ -58,7 +58,7 @@
 	ext.deps = deps
     
 # 3. 修改预编译gradle
-修改项目==build.gradle==
+修改项目`build.gradle`
 
 
     // Top-level build file where you can add configuration options common to all sub-projects/modules.
