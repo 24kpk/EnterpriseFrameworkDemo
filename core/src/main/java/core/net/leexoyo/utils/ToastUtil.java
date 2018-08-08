@@ -6,6 +6,7 @@ import android.widget.Toast;
 /**
  * Created by CHEUNG on 2018/8/8.
  * Toast工具类
+ * 需在Application中初始化Context
  */
 public class ToastUtil {
     public static Context context;

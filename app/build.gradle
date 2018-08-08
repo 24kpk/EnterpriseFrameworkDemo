@@ -26,4 +26,7 @@ dependencies {
     implementation deps.butterknife
     annotationProcessor deps.butterknife_compiler
     implementation project(':core')
+
+    implementation deps.utilcode
+
 }

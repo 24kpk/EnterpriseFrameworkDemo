@@ -11,6 +11,7 @@ import butterknife.ButterKnife;
 
 /**
  * Created by CHEUNG on 2018/8/8.
+ * 通用框架基类
  */
 public abstract class BaseActivity extends AppCompatActivity {
     protected Context mContext;

@@ -31,5 +31,7 @@ dependencies {
     implementation deps.support.constraint
     implementation deps.butterknife
     implementation deps.logger
+    implementation deps.android_acp
+    implementation deps.utilcode
     annotationProcessor deps.butterknife_compiler
 }
