@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.blankj.utilcode.util.SPUtils;
+import com.qmuiteam.qmui.widget.QMUITopBar;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -18,6 +19,8 @@ import core.net.leexoyo.utils.ToastUtil;
 public class MainActivity extends BaseActivity {
     @BindView(R.id.tv_main)
     TextView tv1;
+    @BindView(R.id.topbar)
+    QMUITopBar topBar;
 
     @Override
     public int getContentViewId() {
@@ -26,6 +29,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initUI(Bundle savedInstanceState) {
+        topBar.setTitle("文字");
         tv1.setText("查看Log输出开关");
     }
 

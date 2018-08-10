@@ -1,11 +1,23 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="QMUI.Compat">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--默认关闭ActionBar、Title-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--修改QDTopBar样式-->
+        <!--<item name="QMUITopBarStyle">@style/QDTopBar</item>-->
+
     </style>
 
+    <style name="QDTopBar" parent="QMUI.TopBar">
+        <item name="qmui_topbar_bg_color">@color/colorPrimary</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+    </style>
 </resources>

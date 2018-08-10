@@ -28,5 +28,6 @@ dependencies {
     implementation project(':core')
 
     implementation deps.utilcode
+    implementation deps.qmui
 
 }

@@ -6,12 +6,13 @@
 ext.deps = [:]
 def versions = [:]
 
-versions.support = "26.1.0"
+versions.support = "27.1.0"
 versions.constraint = "1.1.2"
 versions.butterknife = "8.8.1"
 versions.logger = "1.15"
 versions.android_acp = "1.1.7"
 versions.utilcode = "1.18.5"
+versions.qmui = "1.1.3"
 
 // support 相关的逻辑
 def support = [:]
@@ -41,6 +42,9 @@ deps.android_acp = "com.mylhyl:acp:$versions.android_acp"
 
 //utilcode
 deps.utilcode = "com.blankj:utilcode:$versions.utilcode"
+
+//QMUI
+deps.qmui = "com.qmuiteam:qmui:$versions.qmui"
 
 deps.support = support
 ext.deps = deps
