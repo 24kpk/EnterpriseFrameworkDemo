@@ -12,12 +12,12 @@
         <item name="windowNoTitle">true</item>
 
         <!--修改QDTopBar样式-->
-        <!--<item name="QMUITopBarStyle">@style/QDTopBar</item>-->
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
 
     </style>
 
     <style name="QDTopBar" parent="QMUI.TopBar">
-        <item name="qmui_topbar_bg_color">@color/colorPrimary</item>
+        <item name="qmui_topbar_bg_color">@color/colorPrimaryDark</item>
         <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
     </style>
 </resources>
