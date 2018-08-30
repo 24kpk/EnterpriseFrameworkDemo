@@ -1,7 +1,7 @@
 - [x] 日志管理
 - [x] Crush管理
-- [x] - 输出文件夹管理
-- [ ] - QMUI Activity样式
+- [x] 输出文件夹管理
+- [x] QMUI Activity样式
 
 
 # 1. 新建项目 
