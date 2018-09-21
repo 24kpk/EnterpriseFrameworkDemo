@@ -31,7 +31,7 @@ import core.net.leexoyo.utils.ToastUtil;
  */
 public class BaseConfig {
     public static final String SP_TAG_BASECONFIG = "SP_TAG_BASECONFIG";
-    private static final String LOG_TAG = BaseConfig.class.getSimpleName();
+    private static final String LOG_TAG = "BASECONFIG";
 
     private Context mContext;
 

@@ -15,7 +15,7 @@ public class App extends Application {
         ToastUtil.context = this.getApplicationContext();
 
         BaseConfig.getInstance(this).init();
-        //BaseConfig.getInstance(this).initWithExcepDir();
+//        BaseConfig.getInstance(this).initWithExcepDir();
         BaseConfig.getInstance(this).setDebugMode(true);
     }
 }
