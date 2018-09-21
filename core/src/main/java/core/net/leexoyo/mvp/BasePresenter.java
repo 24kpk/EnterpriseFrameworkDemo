@@ -19,17 +19,17 @@ public class BasePresenter<V extends IView> implements IPresenter<V> {
      *
      * @return
      */
-    public boolean isAttachView() {
+    public boolean isbindMVPView() {
         return this.weakView != null && this.weakView.get() != null;
     }
 
     @Override
-    public void attachView(V view) {
+    public void bindMVPView(V view) {
         this.weakView = new WeakReference<V>(view);
     }
 
     @Override
-    public void dettachView() {
+    public void unbindMVPView() {
         if (this.weakView != null) {
             this.weakView.clear();
             this.weakView = null;
